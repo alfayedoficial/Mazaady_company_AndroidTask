@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name" translatable="false">Mazaady AndroidTask</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="favourites">Favourites</string>
+    <string name="home">Home</string>
+    <string name="error_occurred">Error occurred</string>
+    <string name="retry">Retry</string>
+    <string name="movies">Movies</string>
+    <string name="no_movies_yet">No movies, yet…</string>
+    <string name="no_favourite_movies_yet">No favourite movies, yet…</string>
+    <string name="no_internet_connection">No internet connection</string>
+    <string name="selected_now">Selected Now</string>
+    <string name="open_connection">Open connection</string>
+    <string name="something_went_wrong">Something went wrong</string>
+    <string name="overview">Overview</string>
+    <string name="rate">%1$d/%2$.1f (%3$d)</string>
+    <string name="movie_details">Movie details</string>
+
+</resources>
