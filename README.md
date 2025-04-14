@@ -48,10 +48,10 @@ The app is built with **Clean MVVM Architecture** and divided into the following
 - Room
 - Retrofit
 - Hilt
-- ViewModel + LiveData + StateFlow
+- ViewModel + StateFlow
 - Navigation Component (Single Activity Architecture)
 - Clean Architecture
-- JUnit5, MockK, Turbine, Truth for unit testing
+- JUnit4, MockK, Turbine, Truth for unit testing
 
 ---
 
@@ -93,8 +93,6 @@ Used a fixed delay of 1s in details screen to simulate loading (as per UI feedba
 No full offline DB caching for all pages — only last synced + favorites.
 
 Movie genres & runtime are skipped due to free API limitations (can be extended easily).
-
-UI tests (Espresso) were not implemented to save time but architecture supports it.
 
 Used StateFlow instead of LiveData for reactive streams.
 
